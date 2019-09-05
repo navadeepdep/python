@@ -6,6 +6,10 @@ class Person:
   def myfunc(self):
     print("Hello my name is " + self.name + " working for " + self.cmp)
 
+  def sendmsg(self):
+     print("hello how are you !!")
+
+
 def main():   
     p1 = Person("Navadeep", 'EPAM')
     p1.myfunc()
